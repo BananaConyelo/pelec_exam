@@ -2,8 +2,8 @@
 html{
     scroll-behavior: smooth;
 }
-/* PINAKA FONT AND BACKGOURND
-body { */
+/* PINAKA FONT AND BACKGOURND */
+body { 
     font-family: Arial, sans-serif;
     font-size: 20px;
     margin: 0;
@@ -13,8 +13,8 @@ body { */
     background-position: center;
     color: #333;
 }
-/* NAKALAGAY SA TAAS AT NASA LOOB ANG NAVIGATIONS
-header { */
+/* NAKALAGAY SA TAAS AT NASA LOOB ANG NAVIGATIONS */
+header { 
     background:  #002e60;
     padding: 10px 0;
     text-align: right;
@@ -24,8 +24,8 @@ header { */
     border: 1px solid #01fcfd;
 }
 
-/* STYLE NG NAVIGATION
-nav { */
+/* STYLE NG NAVIGATION */
+nav { 
     display: flex;
     justify-content: center;
 }
@@ -39,8 +39,8 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* MENU BAR SA MALIIT NA SCREENS
-#nav-icon i{ */
+/* MENU BAR SA MALIIT NA SCREENS */
+#nav-icon i{ 
     font-size: 30px;
     color: #01fcfd;
     margin-right: 30px;
@@ -64,8 +64,8 @@ nav a:hover {
     }
 }
 
-/* RESPONSIVENESS SA MALILIIT NA SCREEN
-@media (min-width: 769px) { */
+ /* RESPONSIVENESS SA MALILIIT NA SCREEN */
+@media (min-width: 769px) { 
     .nav {
         display: flex; 
     }
@@ -135,7 +135,7 @@ nav a:hover {
 }
 
 /* PINAKA HOME AT ABOUT ME
-/* FIRST SECTION */ */
+/* FIRST SECTION */ 
 section{
     margin-top: 100px;
     border: 1px solid #01fcfd;
@@ -157,8 +157,8 @@ section{
     animation: fadeIn 0.5s forwards, moveRight 5s infinite alternate; 
 }
 
-/* ANIMATION NG PICTURE, NAGALAW
-@keyframes fadeIn { */
+/* ANIMATION NG PICTURE, NAGALAW */
+@keyframes fadeIn { 
     from {
         opacity: 0;
     }
@@ -177,8 +177,8 @@ section{
     }
 }
 
-/* ANIMATIONG NG TEXT SA HOME PAGE
-.main-text { */
+ /* ANIMATIONG NG TEXT SA HOME PAGE */
+.main-text { 
     margin-left: 20px;
     color: #01fcfd;
     font-size: 20px;
@@ -291,8 +291,8 @@ section{
 
 
 
-/* DESIGN NG BACK TO TOP AT FUNCTIONS
-.back-to-top { */
+/*  DESIGN NG BACK TO TOP AT FUNCTIONS */
+.back-to-top { 
     position: fixed; 
     bottom: 20px; 
     right: 20px;
@@ -314,8 +314,8 @@ section{
     background-color: #555; 
 }
 
-/* PINAKA FOOTER AT DESIGN
-footer{ */
+/*  PINAKA FOOTER AT DESIGN */
+footer{ 
     text-align: center;
     background-color:  #002e60;
     color: #01fcfd;
