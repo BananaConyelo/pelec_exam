@@ -14,7 +14,7 @@ body {
 header {
     background:  #002e60;
     padding: 10px 0;
-    text-align: center;
+    text-align: right;
     position: sticky;
     top: 0; 
     z-index: 1000; 
@@ -37,8 +37,8 @@ nav a:hover {
 }
 
 #nav-icon i{
-    font-size: 20px;
-    justify-content: right;
+    font-size: 30px;
+    margin-left: 30px;
     color: #01fcfd;
 }
 
